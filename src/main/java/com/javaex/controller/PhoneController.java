@@ -17,7 +17,7 @@ public class PhoneController {
 	
 	@Autowired
 	private PhoneDao phoneDao;
-	
+
 	// LIST
 		@RequestMapping(value = "/list", method = { RequestMethod.GET, RequestMethod.POST })
 		public String list(Model model) {
